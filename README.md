@@ -146,9 +146,6 @@ Answer2
 
 !welcome = Shows all welcome messages
 
-###	whois.py
-.whois = Reply to a user to show his profil infos
-
 ###	www.py
 .speed = Test your internet speed
 
