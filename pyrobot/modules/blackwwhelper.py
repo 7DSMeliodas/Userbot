@@ -20,7 +20,7 @@ def chaos(bot: BOT, message: Message):
 def foolish(bot: BOT, message: Message):
         message.delete()
         bot.send_message(message.chat.id, "/startfoolish@blackwerewolfbot")
-        
+
 @BOT.on_message(Filters.command("sr", ".") & Filters.user(controllers))
 def foolish(bot: BOT, message: Message):
         message.delete()
@@ -36,6 +36,11 @@ def classic(bot: BOT, message: Message):
         message.delete()
         bot.send_message(message.chat.id, "/startclassic@blackwerewolfbot")
 
+@BOT.on_message(Filters.command("scu", ".") & Filters.user(controllers))
+def cultus(bot: BOT, message: Message):
+        message.delete()
+        bot.send_message(message.chat.id, "/startcultus@blackwerewolfbot")
+
 #Extend / UserBefehle
 
 @BOT.on_message(Filters.command("e", ".") & Filters.user(controllers))
@@ -46,14 +51,14 @@ def extend(bot: BOT, message: Message):
     else:
         bot.send_message(message.chat.id, "/extend@blackwerewolfbot")
     message.delete()
-    
+
 @BOT.on_message(Filters.command("join", ".") & Filters.user(controllers))
 def joining(bot: BOT, message: Message):
     result = message.reply_to_message.click(0)
     message.delete()
     code = result.replace("https://t.me/blackwerewolfbot?start=", "")
     bot.send_message(message.reply_to_message.from_user.id, "/start " + code)
-    
+
 @BOT.on_message(Filters.command("wait", ".") & Filters.user(controllers))
 def nextgame(bot: BOT, message: Message):
     message.delete()
