@@ -1,5 +1,6 @@
 # Custom ignores
 *.session
+*.session-journal
 *.db
 /downloads
 settings.json
