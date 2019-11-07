@@ -228,3 +228,9 @@ def clean_deleted(bot: BOT, message: Message):
                 sleep(e.x)
 
         message.edit(f"Removed {len(removed)} deleted accounts.")
+
+#Delete Message
+@BOT.on_message(Filters.command("d", "?") & Filters.me)
+def delete(bot: BOT, message: Message):
+    message.delete()
+    BOT.delete_messages(message.chat.id, message.reply_to_message.message_id)

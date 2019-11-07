@@ -21,6 +21,8 @@
 
 !cclean = Kicks all deletes account (if they have less permissions than you)
 
+?d = Reply to a messages to delete it
+
 ###	BlackWWHelper.py
 .sg = Start a game
 
@@ -56,19 +58,10 @@
 
 .kill = Kills a player in a game
 
-###	DeleteMessages.py
-?d = Reply to a messages to delete it
-
-###	Dice.py
-.d X = Random Number between 1 and X
-
 ###	evaluation.py
 .eval = Evaluates Python Code
 
 .exec = Execute Python Code
-
-###	GayTester.py
-.gay = Test your Gay percentage (German)
 
 ###	get_info.py
 !admins = Show all admins in actual group
@@ -88,8 +81,14 @@ dog = shows a picture of a dog
 
 .ggl TEXT = Shows a Sticker to google TEXT
 
+.gay = Test your Gay percentage (German)
+
 ###	misc.py
 .up = Shows how long your bot has been online since last start
+
+.d X = Random Number between 1 and X
+
+.p = Creates a random person (German)
 
 ###	PictureKillerGlitch.py
 .glitch X = As reply to a picture glitches a picture X times (Just try it)
@@ -114,12 +113,10 @@ Answer2
 
 ?purgeme = Deletes all of your messages below the replyed
 
-###	RandomPersonCreator.py
-.p = Creates a random person (German)
-
-###	ScriptsLightwerewolf.py
+###	offtopic.py
 #offtopic = Sends the link to the german offtopic group
 
+###StealRateGerman.py
 #steal = Give a list with stealrate (German)
 
 ###	TextToVoice.py
