@@ -38,8 +38,8 @@ def extend_if_players_too_less(bot: BOT,  message: Message):
     if match < 5:
         bot.send_message(message.chat.id, "/extend@blackwerewolfbot 60")
 
-# Pingtime info
-@BOT.on_message(Filters.regex('haben eine Benachrichtigung erhalten, da sie den'))
+# Pingall info
+@BOT.on_message(Filters.regex('have all been called as they used'))
 def notify_when_pingtime_ready(bot: BOT, message: Message):
     sleep(600)
     bot.send_message(message.chat.id, "Pingtime kann wieder verwendet werden!")
