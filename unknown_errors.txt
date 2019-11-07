@@ -1,0 +1,36 @@
+400	DATA_INVALID	<class 'pyrogram.api.functions.messages.get_bot_callback_answer.GetBotCallbackAnswer'>
+403	CHAT_SEND_MEDIA_FORBIDDEN	<class 'pyrogram.api.functions.messages.send_media.SendMedia'>
+403	CHAT_SEND_MEDIA_FORBIDDEN	<class 'pyrogram.api.functions.messages.send_media.SendMedia'>
+403	CHAT_SEND_MEDIA_FORBIDDEN	<class 'pyrogram.api.functions.messages.send_media.SendMedia'>
+403	CHAT_SEND_MEDIA_FORBIDDEN	<class 'pyrogram.api.functions.messages.send_media.SendMedia'>
+403	CHAT_SEND_MEDIA_FORBIDDEN	<class 'pyrogram.api.functions.messages.send_media.SendMedia'>
+403	CHAT_SEND_MEDIA_FORBIDDEN	<class 'pyrogram.api.functions.messages.send_media.SendMedia'>
+403	CHAT_SEND_MEDIA_FORBIDDEN	<class 'pyrogram.api.functions.messages.send_media.SendMedia'>
+2019-07-07 00:12:02.164918	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-07-07 11:58:05.891961	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-07-07 11:58:10.534678	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-07-07 22:29:55.788235	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-07-10 00:41:20.684223	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-07-10 00:41:22.771616	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-07-10 00:43:34.305589	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-07-11 07:51:44.395074	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-07-11 08:31:08.234406	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-07-11 12:28:45.253710	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-07-11 12:38:13.116109	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-08-04 12:29:04.466850	[403 CHAT_SEND_STICKERS_FORBIDDEN]	messages.SendInlineBotResult
+2019-08-04 12:29:18.766878	[403 CHAT_SEND_STICKERS_FORBIDDEN]	messages.SendInlineBotResult
+2019-08-08 12:26:00.719964	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-08-14 09:30:48.552216	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-08-22 16:22:18.764091	[-503 Timeout]	messages.GetInlineBotResults
+2019-08-22 16:22:49.713670	[-503 Timeout]	messages.GetInlineBotResults
+2019-09-08 10:54:05.716368	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-09-26 11:00:44.765027	[406 STICKERSET_INVALID]	messages.GetStickerSet
+2019-10-21 15:56:00.173257	[403 CHAT_SEND_STICKERS_FORBIDDEN]	messages.SendInlineBotResult
+2019-11-06 04:16:27.511468	[420 SLOWMODE_WAIT_10]	messages.SendMessage
+2019-11-06 04:17:16.516714	[420 SLOWMODE_WAIT_10]	messages.SendMessage
+2019-11-06 04:17:45.723579	[420 SLOWMODE_WAIT_10]	messages.SendMessage
+2019-11-06 04:17:55.455951	[420 SLOWMODE_WAIT_10]	messages.SendMessage
+2019-11-06 04:18:43.310724	[420 SLOWMODE_WAIT_9]	messages.SendMessage
+2019-11-06 04:21:41.967815	[420 SLOWMODE_WAIT_10]	messages.SendMessage
+2019-11-06 04:23:32.334868	[420 SLOWMODE_WAIT_10]	messages.SendMessage
+2019-11-06 04:25:16.356437	[420 SLOWMODE_WAIT_10]	messages.SendMessage

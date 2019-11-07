@@ -1,0 +1,12 @@
+from pyrobot import BOT
+from pyrogram import Filters, Message
+
+from random import randint
+
+
+@BOT.on_message(Filters.command("d", prefix='.'))
+def roll(bot: BOT, message: Message):
+    wurf=randint(1,6)
+    message.delete()
+    wurf=str(wurf)
+    bot.send_message(message.chat.id,"Du hast eine " + wurf + " geworfen!")

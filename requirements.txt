@@ -1,0 +1,14 @@
+requests
+pyrogram
+tgcrypto
+python-dotenv
+cloudconvert
+speedtest-cli
+gtts
+saucenao
+bs4
+googletrans
+glitchart
+clarifai
+pyzufall
+pytube

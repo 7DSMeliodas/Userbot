@@ -1,0 +1,17 @@
+from pyrobot import BOT
+from pyrogram import Filters, Message
+import requests
+
+@BOT.on_message(Filters.new_chat_members)
+def on_join_cas_check(bot: BOT, message: Message):
+    for x in message.new_chat_members:
+        title = message.chat.title
+        api_url = "https://combot.org/api/cas/check?user_id=" + str(x.id)
+        r = requests.get(api_url).json()
+        if r['ok'] == True:
+            bot.kick_chat_member(message.chat.id, x.id)
+            bot.send_message('-1001273071786', str(x.id) + " has CAS ban! If i can ill kick! (CAS Script by Meliodas)\n The group title is " + title + ". \nIf this is your Group: Banning" +  x.first_name + "(ID: " + str(x.id) + ") is recommend!")
+            #message.reply('This User is CAS banned. If I am not able to ban: its highly recomment to ban this user')
+        else:
+            pass
+            #bot.send_message(message.chat.id, 'Joined User is not CAS Banned')

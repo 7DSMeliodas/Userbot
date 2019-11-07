@@ -1,0 +1,14 @@
+import os
+from pyrobot import BOT
+from gtts import gTTS
+from pyrogram import Filters, Message
+
+@BOT.on_message(Filters.command("v", prefix=".") & Filters.me)
+def tts(bot, message):
+    wts = message.command[1:]
+    wts = ' '.join(wts)
+    speech = gTTS(wts)
+    speech.save('tts.ogg')
+    message.delete()
+    bot.send_voice(message.chat.id, 'tts.ogg')
+    os.remove('tts.ogg')
