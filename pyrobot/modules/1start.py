@@ -4,10 +4,10 @@ from pyrobot import BOT
 
 # -- Constants -- #
 
-ALIVE = "`I'm alive, Master :3`"
-HELP = ("Elaborate help available on Gitea.\n"
+ALIVE = "`Userbot started and online.`"
+HELP = ("Private fork of:\n"
         "s.neht.xyz/PyroBotHelp")
-REPO = ("Userbot is available on Gitea:\n"
+REPO = ("Original Userbot is available on Gitea:\n"
         "s.neht.xyz/PyroBot")
 
 # -- Constants End -- #
