@@ -1,6 +1,0 @@
-from pyrobot import BOT
-from pyrogram import Filters, Message
-
-@app.on_message(Filters.command('panel') & Filters.user(736236409))
-def panel(bot, message):
-    app.forward_messages(chat_id=message.chat.id, from_chat_id=-1001493304062, message_ids=[message.message_id for message in app.iter_history(-1001493304062)])
