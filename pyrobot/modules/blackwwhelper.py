@@ -9,8 +9,16 @@ controllers = [172623926, 43817863, 690115613]
 
 @BOT.on_message(Filters.command("sg", ".") & Filters.user(controllers))
 async def game(bot: BOT, message: Message):
-        await message.delete()
-        await bot.send_message(message.chat.id, "/startgame@blackwerewolfbot")
+    print('Trigger')
+    delmsg = asyncio.create_task(message.delete())
+    print('Del messaged')
+    send_start = asyncio.create_task(
+        bot.send_message(message.chat.id, "/startgame@blackwerewolfbot"))
+    print('send startgame')
+    await delmsg
+    print('await delmsg')
+    await send_start
+    print('start')
 
 @BOT.on_message(Filters.command("sc", ".") & Filters.user(controllers))
 async def chaos(bot: BOT, message: Message):
