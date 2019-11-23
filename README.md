@@ -143,6 +143,13 @@ Answer2
 
 !welcome = Shows all welcome messages
 
+### whois.py
+.whois ID = Check the User with UserID ID
+
+.whois [Reply] = Check the User u replyed to
+
+.whois in private = Check your current chat partner
+
 ###	www.py
 .speed = Test your internet speed
 
