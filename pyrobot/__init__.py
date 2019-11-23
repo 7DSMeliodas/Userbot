@@ -22,8 +22,8 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
 
 # Now for the rest
 __version__ = '0.3.3'
-__author__ = 'Nicolas "Colin" Neht'
-__source__ = 'https://git.colinshark.de/PyroBot/PyroBot'
+__author__ = 'xXMeliodas on Telegram, Webspacer on Telegram.'
+__source__ = 'This: https://github.com/7DSMeliodas/Userbot/ // Built on: https://git.colinshark.de/PyroBot/PyroBot'
 __copyright__ = 'Copyright (c) 2019 ' + __author__
 __copystring__ = f"PyroBot v{__version__} | {__copyright__}"
 
