@@ -74,6 +74,11 @@
 
 !unread = Show how many unread messages u have
 
+
+### liveclock.py
+.time XX   = Gives the current live localtime XX seconds
+
+
 ###	memes.py
 dog = shows a picture of a dog
 
