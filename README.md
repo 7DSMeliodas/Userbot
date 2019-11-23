@@ -2,10 +2,15 @@
 
 ##Installation
 git clone https://github.com/7DSMeliodas/Userbot/
+
 cd PyroBot
+
 Create a new .env file (as .env.sample)
+
 Install requirements: pip install -r requirements.txt
+
 Execute with python3 -m pyrobot
+
 Send .alive in any chat to confirm the userbot is running
 
 ##	Commands
