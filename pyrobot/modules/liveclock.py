@@ -20,7 +20,7 @@ def delete(bot: BOT, message: Message):
 
     while i < endtime:
         currenttime = time.localtime()
-        clock = time.strftime("Current time in Germany: %m/%d/%Y, %H:%M:%S", currenttime)
+        clock = time.strftime("My current localtime: %d/%m/%Y, %H:%M:%S", currenttime)
         bot.edit_message_text(message.chat.id, message.message_id, clock)
         i=i+1
         time.sleep(1)
