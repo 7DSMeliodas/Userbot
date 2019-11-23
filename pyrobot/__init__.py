@@ -43,6 +43,7 @@ except ValueError:
 ACCGEN_API = os.getenv("ACCGEN_API")
 CC_API = os.getenv("CC_API")
 SAUCE_API = os.getenv("SAUCE_API")
+NO_PICTURE_PATH = os.getenv("NO_PICTURE_PATH")
 
 # Create Database if there is none yet.
 PYRO_DB = str(Path(__file__).parent.parent / 'pyrobot.db')
