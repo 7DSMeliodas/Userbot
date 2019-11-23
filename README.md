@@ -155,6 +155,9 @@ Answer2
 
 .whois in private = Check your current chat partner
 
+### wordcount.py
+.wc x y = Gives from x messages the y most used words in your Log Group
+
 ###	www.py
 .speed = Test your internet speed
 
