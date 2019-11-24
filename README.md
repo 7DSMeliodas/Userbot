@@ -4,7 +4,7 @@
 
 git clone https://github.com/7DSMeliodas/Userbot/
 
-cd PyroBot
+cd Userbot
 
 Create a new .env file (as .env.sample)
 
