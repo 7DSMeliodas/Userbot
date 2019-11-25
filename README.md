@@ -8,7 +8,7 @@ cd Userbot
 
 Create a new .env file (as .env.sample)
 
-Install requirements: pip install -r requirements.txt
+Install requirements: pip3 install -r requirements.txt
 
 Execute with python3 -m pyrobot
 
