@@ -72,6 +72,9 @@ Send .alive in any chat to confirm the userbot is running
 
 .kill = Kills a player in a game
 
+### countmessages.py
+.cm = Counts the messages in a chat
+
 ###	evaluation.py
 .eval = Evaluates Python Code
 
