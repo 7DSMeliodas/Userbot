@@ -25,11 +25,12 @@ def word_count(bot: BOT, message: Message):
 
         linkd = "tg://user?id=" + str(username)
         link = f"<a href='{linkd}'>{title}</a>\n"
+    elif message.chat.type == 'bot':
+        username = message.chat.id
+        title = message.chat.first_name
 
-
-    #Debug
-#    bot.send_message(chat, check1)
-#    bot.send_message(chat, check2)
+        linkd = "tg://user?id=" + str(username)
+        link = f"<a href='{linkd}'>{title}</a>\n"
 
     if check2 == COMMAND:
         bot.send_message(LOGGER_GROUP, "<b>Wrong input!</b>\nCorrect Syntax:\n.wc 100 20\nOut of <b>100</b> Posts back the Top<b>20</b>" )
