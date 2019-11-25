@@ -4,7 +4,7 @@
 
 git clone https://github.com/7DSMeliodas/Userbot/
 
-cd Userbot
+cd pyrobot
 
 Create a new .env file (as .env.sample)
 
