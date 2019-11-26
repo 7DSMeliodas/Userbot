@@ -21,7 +21,7 @@ if sys.version_info[0] < 3 or sys.version_info[1] < 6:
     quit(1)
 
 # Now for the rest
-__version__ = '0.3.3'
+__version__ = '0.1'
 __author__ = 'xXMeliodas on Telegram, Webspacer on Telegram.'
 __source__ = 'This: https://github.com/7DSMeliodas/Userbot/ // Built on: https://git.colinshark.de/PyroBot/PyroBot'
 __copyright__ = 'Copyright (c) 2019 ' + __author__
